@@ -41,15 +41,17 @@ function App() {
         <thead>
           <tr>
             <th>City</th>
-            <th>Speed</th>
-            <th>Degree</th>            
+            <th>Visibility</th>
+            <th>Cod</th>                      
           </tr>
         </thead>
         <tbody>
           <tr className="fw-bold">             
             <td>{users.name}</td>
             <td>{users.visibility}</td>
-            <td>{users.cod}</td>                     
+            <td>{users.cod}</td>
+            
+                                  
           </tr>
         </tbody>
       </table>      
